@@ -8,6 +8,7 @@ import Container from '@material-ui/core/Container';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 import Showprob from '../components/Showprob';
+import CodeIDE from '../components/CodeIDE';
 
 const useStyles = makeStyles((theme) => ({
   icon: {
@@ -100,11 +101,7 @@ export default function HomeOMG() {
           <Showprob />
         </Container>
         <Container maxWidth="md">
-          <div
-            className="sec-widget"
-            data-widget="7bc5d5f13cb49e792b6a906844e5e60b"
-            data-theme="dark"
-          />
+          <CodeIDE />
         </Container>
       </main>
       {/* Footer */}
